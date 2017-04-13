@@ -29,7 +29,7 @@ if (!($user_database_path)) {
 if (@file_query < 1) {
     die "No FASTQ files were supplied\n";
 }
-# Sanity check for input ref. genome and annotation
+# Sanity check for input ref. genome and annotations
 unless ($user_database_path) {
   die "No reference genome was selected"
 }
